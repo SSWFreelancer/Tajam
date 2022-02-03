@@ -46,7 +46,12 @@ $(document).ready(function () {
       $('.header__burger, .header__menu').toggleClass('active');
    });
 });
-
+$(document).ready(function () {
+   $('.header__link').click(function (event) {
+      $('body').removeClass('lock');
+       $('.header__burger, .header__menu').removeClass('active');
+   });
+});
 
 $(document).ready(function () {
    $('.but').on("touchstart", function () {
