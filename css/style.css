@@ -198,6 +198,9 @@ body {
 }
 
 @media (max-width: 767px) {
+   body.lock{
+      overflow: hidden;
+   }
    .header_head {
       margin-bottom: 100px;
    }
