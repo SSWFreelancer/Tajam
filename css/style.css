@@ -95,7 +95,9 @@ body {
    line-height: 1.2;
    height: 100%;
 }
-
+html{
+  scroll-behavior: smooth;
+}
 .wrapper {
    min-height: 100%;
    overflow: hidden;
